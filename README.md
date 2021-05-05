@@ -1,7 +1,7 @@
 # Amazon_Vine_Analysis
 
 ## Overview 
-This project was utilizing Amazons RDS and uploading that data into PostgreSQL to query data either in SQL or in Jupyter Notebooks: Google Collaboratory. With this specific dataset we are going to determine if there was a bias with Amazon review on Sports Items for the Vine Program. The Vine Program for Amazon is a invitation only based program in which Amazon wants to get the most trusted reviewers on Amazon to post opinions about new and pre-release items to help their fellow customers make informed purchase decisions. 
+This project used Amazons RDS and uploaded data into PostgreSQL to query data either in SQL or in Jupyter Notebooks: Google Collaboratory. This dataset determines a potential bias with Amazon review on Sports Items for the Vine Program. The Vine Program for Amazon is a invitation only based program in which Amazon wants to get the most trusted reviewers on Amazon to post opinions about new and pre-release items to help their fellow customers make informed purchase decisions. 
 
 ## Results
 ![Screen Shot 2020-11-01 at 1 02 13 PM](https://user-images.githubusercontent.com/67808057/97816793-8c304d00-1c4c-11eb-8a85-050d253183eb.png)
@@ -19,4 +19,4 @@ This project was utilizing Amazons RDS and uploading that data into PostgreSQL t
 - Not-Vine: 53.02%
 
 ## Summary 
-In conclusion, for the Sports Items in the Vine Program there the test is inconclusive since our number of total reviews for Vine is significantly lower than Not-Vine Reviews plays a major role in this analysis. But going on what this data is telling me I would say that there is negative bias since it is about 12 percentage points lower than non-Vine revewis. We would need to have way equal or signtly less Vine reviews to non-vine reviews to gather a more insightful answer to this problem. We could use ANOVA testing but of course would still need a larger sample to use this statistical test. Another way is that we could randomly select reviews on both groups then determine their percentages and see if there is a positive bias in the Vine Program reviews.
+For the Sports Items in the Vine Program the test is inconclusive due to lower total reviews for Vine than Not-Vine Reviews. This data shows a negative biasn since it is about 12 percentage points lower than non-Vine revewis. It would be necessary to have signtly less Vine reviews to non-vine reviews to gather a more insightful answer to this problem. It would bepossible to use ANOVA testing but would still need a larger sample to use this statistical test. Another way would be  randomly selecting reviews on both groups to determine their percentages and analyze if there is a positive bias in the Vine Program reviews.
